@@ -50,7 +50,9 @@ class _EditableTextExampleState extends State<EditableTextExample> {
               setState(() {
                 n2 = int.tryParse(value) ?? 0;
               });
+              
             },
+
           ),
           TextField(
             keyboardType: TextInputType.number,
